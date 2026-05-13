@@ -60,3 +60,34 @@ export const skillGroups = [
     items: ["OOP Concepts", "Architectural Patterns"],
   },
 ];
+
+import aiCompanionImage from "@/assets/project-ai-companion.png";
+import themeSwitcherImage from "@/assets/project-theme-switcher.png";
+import fedoraBoostImage from "@/assets/project-fedoraboost.png";
+
+export const projects = [
+  {
+    title: "AI Companion",
+    url: "https://github.com/nalinduash/AI-Companion",
+    image: aiCompanionImage,
+    description:
+      "A real-time fully-local AI Companion that listens and speaks back within less than 1 second. It fits efficiently in 6GB VRAM while integrates CUDA support. It has many features like lip syncing, interruption handling and etc.",
+    techStack: ["React", "Python", "sherpa-onnx", "llama-cpp"],
+  },
+  {
+    title: "Tool to customize Gnome",
+    url: "https://github.com/nalinduash/Theme-Switcher",
+    image: themeSwitcherImage,
+    description:
+      "A universal command line tool that change the Gnome shell theme, Icon theme, and Cursor theme with a single command. It supports for all the major Linux distributions.",
+    techStack: ["Bash"],
+  },
+  {
+    title: "FedoraBoost",
+    url: "https://github.com/nalinduash/FedoraBoost",
+    image: fedoraBoostImage,
+    description:
+      "A comprehensive modular open-source collection of scripts to automate your Fedora Linux post-install setup. It automate installing drivers, signing Nvidia kernels, theming, installing applications and many more.",
+    techStack: ["Bash"],
+  },
+];

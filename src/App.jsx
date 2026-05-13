@@ -3,6 +3,7 @@ import { TopBar } from "@/components/TopBar";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { SkillsSection } from "@/components/SkillsSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
 import { PageFooter } from "@/components/PageFooter";
 import { Separator } from "@/components/ui/separator";
 
@@ -17,6 +18,8 @@ function App() {
           <AboutSection />
           <Separator />
           <SkillsSection />
+          <Separator />
+          <ProjectsSection />
         </main>
         <PageFooter />
       </div>

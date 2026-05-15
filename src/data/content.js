@@ -116,3 +116,18 @@ export const education = [
       "Physics - B"],
   },
 ];
+
+export const certificates = [
+  { title: "Programming in Python - 1", issuer: "open.uom.lk" },
+  { title: "Programming in Python - 2", issuer: "open.uom.lk" },
+  { title: "Web Development - 1 - Web Design for Beginners", issuer: "open.uom.lk" },
+  { title: "Web Development - 2 - Front-End Web Development", issuer: "open.uom.lk" },
+  { title: "Web Development - 3 - Server-side Web Programming", issuer: "open.uom.lk" },
+  { title: "Deliver with DevOps", issuer: "Microsoft" },
+];
+
+export const contactLinks = [
+  { label: "GitHub", url: "https://github.com/nalinduash" },
+  { label: "Email", url: "mailto:nalindugra@gmail.com" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/nalindu-ashirwada/" },
+];

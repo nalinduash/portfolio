@@ -126,8 +126,11 @@ export const certificates = [
   { title: "Deliver with DevOps", issuer: "Microsoft" },
 ];
 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 export const contactLinks = [
-  { label: "GitHub", url: "https://github.com/nalinduash" },
-  { label: "Email", url: "mailto:nalindugra@gmail.com" },
-  { label: "LinkedIn", url: "https://www.linkedin.com/in/nalindu-ashirwada/" },
+  { label: "GitHub", url: "https://github.com/nalinduash", icon: FaGithub },
+  { label: "Email", url: "mailto:nalindugra@gmail.com", icon: MdEmail },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/nalindu-ashirwada/", icon: FaLinkedin },
 ];

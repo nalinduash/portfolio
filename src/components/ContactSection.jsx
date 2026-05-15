@@ -13,13 +13,17 @@ export function ContactSection() {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          {contactLinks.map((link) => (
-            <Button key={link.label} variant="outline" size="lg" asChild>
-              <a href={link.url} target="_blank">
-                {link.label}
-              </a>
-            </Button>
-          ))}
+          {contactLinks.map((link) => {
+            const Icon = link.icon;
+            return (
+              <Button key={link.label} variant="outline" size="lg" asChild>
+                <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  {Icon && <Icon className="size-5" />}
+                  {link.label}
+                </a>
+              </Button>
+            );
+          })}
         </div>
       </div>
     </section>

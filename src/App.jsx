@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
+import { EducationSection } from "@/components/EducationSection";
 import { PageFooter } from "@/components/PageFooter";
 import { Separator } from "@/components/ui/separator";
 
@@ -20,6 +21,8 @@ function App() {
           <SkillsSection />
           <Separator />
           <ProjectsSection />
+          <Separator />
+          <EducationSection />
         </main>
         <PageFooter />
       </div>

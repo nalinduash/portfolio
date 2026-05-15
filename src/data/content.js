@@ -91,3 +91,28 @@ export const projects = [
     techStack: ["Bash"],
   },
 ];
+
+export const education = [
+  {
+    title: "Bsc(Hons) Software Engineering",
+    place: "University of Kelaniya (UOK)",
+    period: "2024 – Present",
+    summary: "CGPA: 3.96 / 4.00",
+    details: [
+      "Specialized in Net Centric Applications",
+      "Specialized in Mobile Computing Applications",
+      "Specialized in Data Science and Engineering Applications",
+      "Specialized in Health Informatics Applications",
+    ],
+  },
+  {
+    title: "G.C.E. Advanced Level",
+    place: "Science Stream",
+    period: "Completed",
+    summary: "Results: 3B — Z-score: 1.57",
+    details: [
+      "Combined Mathematics - B",
+      "Chemistry - B",
+      "Physics - B"],
+  },
+];

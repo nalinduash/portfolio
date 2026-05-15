@@ -12,52 +12,68 @@ export const aboutContent = {
     "I'm a software engineering undergraduate passionate about full-stack development and cross-platform applications (Android, iOS, Windows, Linux). I enjoy building practical systems that solve real-world problems.",
 };
 
+import { 
+  FaJava, FaPython, FaNodeJs, FaReact, FaDocker, FaUnity, FaGitAlt, FaLinux, FaBrain, FaPhp, FaProjectDiagram 
+} from "react-icons/fa";
+import { 
+  SiJavascript, SiTypescript, SiDart, SiC, SiGo, SiShell, 
+  SiSpringboot, SiExpress, SiFlutter, SiTailwindcss, SiMysql, SiMongodb, 
+  SiFirebase, SiUnrealengine, SiJsonwebtokens, SiDotnet 
+} from "react-icons/si";
+import { VscSymbolStructure } from "react-icons/vsc";
+
 export const skillGroups = [
   {
     title: "Programming Languages",
     items: [
-      "Java",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "Dart",
-      "C",
-      "C#",
-      "Go",
-      "Bash",
-      "PHP",
+      { name: "Java", icon: FaJava },
+      { name: "JavaScript", icon: SiJavascript },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "Python", icon: FaPython },
+      { name: "Dart", icon: SiDart },
+      { name: "C", icon: SiC },
+      { name: "C#", icon: SiDotnet },
+      { name: "Go", icon: SiGo },
+      { name: "Bash", icon: SiShell },
+      { name: "PHP", icon: FaPhp },
     ],
   },
   {
     title: "Frameworks & Technologies",
     items: [
-      "SpringBoot",
-      "NodeJS / Express JS",
-      "React",
-      "Flutter",
-      "Tailwind CSS",
+      { name: "SpringBoot", icon: SiSpringboot },
+      { name: "NodeJS / Express JS", icon: FaNodeJs },
+      { name: "React", icon: FaReact },
+      { name: "Flutter", icon: SiFlutter },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
   },
   {
     title: "Databases",
-    items: ["MySQL", "MongoDB"],
+    items: [
+      { name: "MySQL", icon: SiMysql },
+      { name: "MongoDB", icon: SiMongodb },
+    ],
   },
   {
     title: "Other Tools",
     items: [
-      "Docker",
-      "Firebase",
-      "Unreal Engine",
-      "Unity",
-      "Git",
-      "JWT",
-      "Linux (Fedora)",
-      "AI Dev Tools",
+      { name: "Docker", icon: FaDocker },
+      { name: "Firebase", icon: SiFirebase },
+      { name: "Unreal Engine", icon: SiUnrealengine },
+      { name: "Unity", icon: FaUnity },
+      { name: "Git", icon: FaGitAlt },
+      { name: "JWT", icon: SiJsonwebtokens },
+      { name: "Linux (Fedora)", icon: FaLinux },
+      { name: "AI Dev Tools", icon: FaBrain },
     ],
   },
   {
     title: "Knowledge",
-    items: ["OOP Concepts", "Architectural Patterns"],
+    items: [
+      { name: "OOP Concepts", icon: VscSymbolStructure },
+      { name: "Architectural Patterns", icon: FaProjectDiagram },
+    ],
   },
 ];
 
